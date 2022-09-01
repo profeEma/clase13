@@ -1,0 +1,14 @@
+// VARIABLES
+// DECLARAR Y DEFINIR
+// $nombredelavariable:green;
+// USAR LA VARIABLE DECLARADA Y DEFINIDA
+// header{background-color: $nombredelavariable;}
+
+$colorPrimario: violet;
+$colorSecundario: orange;
+$bgPrimario: yellow;
+$bgSecundario: green;
+$colorNegro:black;
+$colorBlanco:white;
+
+h3{color: $colorPrimario;}
