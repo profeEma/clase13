@@ -1,12 +1,18 @@
 // NESTING
 header {
 	background-color:$bgPrimario;
-	div {
+	display:grid;
+	grid-template-areas: "logo nav";
+	grid-template-columns: 30% 70%;
+	grid-template-rows:auto;
+	.logo {
 		padding: 10px;
+		grid-area:logo;
 		h3 {
 			font-size:30px;
 		}
 	}
+	nav{grid-area: nav;}
 }
 a{
 	text-decoration: none;

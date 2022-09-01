@@ -2,11 +2,18 @@ h3 {
   color: violet; }
 
 header {
-  background-color: yellow; }
-  header div {
-    padding: 10px; }
-    header div h3 {
+  background-color: yellow;
+  display: grid;
+  grid-template-areas: "logo nav";
+  grid-template-columns: 30% 70%;
+  grid-template-rows: auto; }
+  header .logo {
+    padding: 10px;
+    grid-area: logo; }
+    header .logo h3 {
       font-size: 30px; }
+  header nav {
+    grid-area: nav; }
 
 a {
   text-decoration: none; }
@@ -18,3 +25,7 @@ a {
   .encabezado--texto {
     font-size: 20px;
     font-weight: bold; }
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 50px; } }
