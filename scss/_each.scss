@@ -1,0 +1,5 @@
+@each $familiaTipografica in Arial, Tahoma {
+	.font-#{$familiaTipografica}{
+		font-family: #{$familiaTipografica};
+	}
+}

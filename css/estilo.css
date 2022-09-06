@@ -26,6 +26,30 @@ a {
     font-size: 20px;
     font-weight: bold; }
 
+header {
+  width: 1050px; }
+
 @media only screen and (max-width: 768px) {
-  h1 {
+  body h1 {
     font-size: 50px; } }
+
+.m-1 {
+  margin: 10px; }
+
+.m-2 {
+  margin: 20px; }
+
+.m-3 {
+  margin: 30px; }
+
+.m-4 {
+  margin: 40px; }
+
+.m-5 {
+  margin: 50px; }
+
+.font-Arial {
+  font-family: Arial; }
+
+.font-Tahoma {
+  font-family: Tahoma; }

@@ -1,0 +1,7 @@
+// BUCLE COMO ESTRUCTURA DE REPETICIÓN Y TIENE UNA CONDICION DE CORTE
+
+@for $margen from 1 through 5 {
+	.m-#{$margen}{
+		margin: 10px * $margen;
+	}
+}
